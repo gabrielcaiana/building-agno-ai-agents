@@ -1,0 +1,30 @@
+[project]
+name = "building-agno-ai-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "gabrielcaiana", email = "gabrielcaianaguedes@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "agno>=3.0.4",
+    "chonkie>=1.7.0",
+    "chromadb>=1.5.9",
+    "ddgs>=9.16.0",
+    "fastapi>=0.141.1",
+    "groq>=1.7.0",
+    "openai>=3.6.0",
+    "pypdf>=6.16.2",
+    "python-dotenv>=1.2.3",
+    "sqlalchemy>=2.0.52",
+    "tavily-python>=0.8.0",
+    "uvicorn>=0.52.4",
+]
+
+[project.scripts]
+building-agno-ai-agents = "building_agno_ai_agents:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
