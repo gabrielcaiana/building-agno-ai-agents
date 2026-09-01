@@ -1,5 +1,5 @@
 def main():
-    print("Building AGNO AI Agents")
+    print("Studying AI Agents")
 
 if __name__ == "__main__":
     main()
