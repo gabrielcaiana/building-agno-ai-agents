@@ -91,3 +91,10 @@ agent.print_response(
     user_id=user_id,
     stream=True,
 )
+
+agent.print_response(
+    "Quais são os principais conceitos de microfrontends?",
+    session_id=session_id,
+    user_id=user_id,
+    stream=True,
+)
